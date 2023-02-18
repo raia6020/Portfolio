@@ -353,3 +353,16 @@ a, button, h6, input, li, p {
     margin: 20px 10px;
     color: #fff;
 }
+
+
+.u-section-2 .u-btn-2 {
+    background-image: none;
+    letter-spacing: 1px;
+    text-shadow: 0 0 0 rgb(0 0 0 / 0%);
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-style: none;
+    margin: 39px auto 0;
+    padding: 15px 125px 15px 123px;
+}
