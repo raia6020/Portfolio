@@ -1,6 +1,7 @@
 from flask import Flask,render_template,request
 import smtplib
 from jinja2 import Template
+from flask import send_file
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 app = Flask(__name__)
@@ -47,6 +48,11 @@ def home(): # route handler function
         return render_template('index.html')
         
     return render_template('index.html')
+
+@app.route('/download_cv')
+def download_cv():
+    filename = 'resume.pdf'  # Replace with the path to your CV file
+    return send_file(filename, as_attachment=True)
 
 if __name__ == '__main__':
     app.run(debug=True)

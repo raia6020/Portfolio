@@ -353,3 +353,26 @@ a, button, h6, input, li, p {
     margin: 20px 10px;
     color: #fff;
 }
+
+.cv-link {
+    text-decoration: none;
+  }
+  
+  .cv-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #292d33;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .cv-link:hover .cv-button {
+    background-color: #4aa3df;
+  }
+  
+  
+  
+  
+  
