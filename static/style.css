@@ -28,6 +28,23 @@ form {
         font-size: 3.5rem;
         line-height: 1.5;
     }
+    .cv-link {
+        text-decoration: none;
+      }
+      
+      .cv-button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #292d33;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+      }
+      
+      .cv-link:hover .cv-button {
+        background-color: #4aa3df;
+      }
     .download-button{
         margin: 20px 4px 0px;
     }
@@ -354,23 +371,7 @@ a, button, h6, input, li, p {
     color: #fff;
 }
 
-.cv-link {
-    text-decoration: none;
-  }
-  
-  .cv-button {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #292d33;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-  }
-  
-  .cv-link:hover .cv-button {
-    background-color: #4aa3df;
-  }
+
   
   
   
