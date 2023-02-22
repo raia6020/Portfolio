@@ -51,7 +51,7 @@ def home(): # route handler function
 
 @app.route('/download_cv')
 def download_cv():
-    filename = 'resume.pdf'  # Replace with the path to your CV file
+    filename = 'Aman Shaw.pdf'  # Replace with the path to your CV file
     return send_file(filename, as_attachment=True)
 
 if __name__ == '__main__':
