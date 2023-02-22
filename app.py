@@ -42,7 +42,7 @@ def home(): # route handler function
         mail = smtplib.SMTP('smtp.gmail.com', 587)
         mail.ehlo()
         mail.starttls()
-        mail.login(myEmail, 'zikbmcdxwcovohrw')
+        mail.login(myEmail, 'rmbycrnuqcadpwwo')
         mail.sendmail(myEmail, email, msg.as_string())
         mail.quit()
         return render_template('index.html')
